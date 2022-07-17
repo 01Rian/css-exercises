@@ -15,7 +15,23 @@ body {
   justify-content: center;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
 .modal {
+  gap: 15px;
+  padding: 15px;
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +39,7 @@ body {
 }
 
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
